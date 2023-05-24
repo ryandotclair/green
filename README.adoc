@@ -1,0 +1,8 @@
+This is a barebone example just used as way to show https://martinfowler.com/bliki/BlueGreenDeployment.html[blue-green deployments]
+
+The only file that matters and the one you want to change is
+
+https://github.com/thesteve0/bluespring/blob/main/src/main/resources/static/index.html[src/main/resources/static/index.html]
+
+Just change the colors and the text to whatever you want. Then
+rebuild and start Spring boot, go to http://localhost:8080[localhost:8080], and BAM! you see your changed content.
