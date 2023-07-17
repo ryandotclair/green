@@ -19,7 +19,7 @@ public class GreenSpringController
         methIDgetCurrentDateTime    = LogFactory.getLog(GreenSpringController.class.getName() + ".getCurrentDateTime()");
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/api")
     public String index()
     {
         Log logger = methIDindex;
