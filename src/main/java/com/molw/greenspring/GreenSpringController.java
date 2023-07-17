@@ -11,18 +11,18 @@ import org.apache.commons.logging.LogFactory;
 @RestController
 public class GreenSpringController
 {
-   private static final Log methIDindex, methIDgetCurrentDateTime;
+   private static final Log methIDshowDateTime, methIDgetCurrentDateTime;
 
     static
     {
-        methIDindex                 = LogFactory.getLog(GreenSpringController.class.getName() + ".index()");
+        methIDshowDateTime          = LogFactory.getLog(GreenSpringController.class.getName() + ".showDateTime()");
         methIDgetCurrentDateTime    = LogFactory.getLog(GreenSpringController.class.getName() + ".getCurrentDateTime()");
     }
 
-    @RequestMapping("/")
-    public String index()
+    @RequestMapping("/showDateTime")
+    public String showDateTime()
     {
-        Log logger = methIDindex;
+        Log logger = methIDshowDateTime;
 
         String returnValue = "Greetings from Azure Spring Apps GreenSpringController: ";
         String dateTime = null;
