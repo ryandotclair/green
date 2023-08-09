@@ -1,10 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Blue-Green Deployment Demo</title>
+    <title>Congratulations!</title>
+    <style>
+        body {
+            background-color: #5ca904; /* Leaf Green background color */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .main-title {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+            text-align: center;
+        }
+
+        .content {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* .bold-text {
+            font-weight: bold;
+        } */
+
+        .highlight {
+            background-color: white;
+            color: black;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .blue {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .green {
+            color: green;
+            font-weight: bold;
+        }
+
+        .black {
+            color: black;
+            font-weight: bold;
+        }
+
+        .small {
+            font-size: 18px;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
 </head>
-<body style="background-color:green;">
-    <p style="color: white; text-align: center; font-size:calc(100% + 4vw);" >Super Green! -Ruby Rhod</p>
+<body>
+    <div class="main-title">CONGRATULATIONS!</div>
+    <div class="subtitle">Don't hit refresh in your browser!</div>
+    <div class="content">
+        You did it! You've just experienced a <span class="highlight blue">blue</span> / <span class="highlight green">green</span> deployment that comes out of the box with Azure Spring Apps Enterprise!
+        <br>
+        <br>
+        Pretty cool, right? Well, Riddler found out and he's upset you've exposed his secret to the world.
+        <br>
+        <br>
+        When you promote staging to production with Azure Spring Apps Enterprise, production becomes staging. Which means Riddler can very easily <span class="highlight black">rollback</span> this change.
+        <br>
+        <br>
+        Tell Riddler, exactly, this: <span class="highlight small"> I promise I won't tell anyone the secret you've been hiding is Leaf Green (#5ca904) is the official color of Spring.io </span> and he will give you your next clue.
+        <br>
+        <br>
+        Oh, and when you visit this page again, it will be reverted to what it was.
+        <br>
+        <br>
+        And remember, you're promising not to tell anyone his secret.
+        <br>
+        <br>
+        🤫 -R
+    </div>
 </body>
 </html>
