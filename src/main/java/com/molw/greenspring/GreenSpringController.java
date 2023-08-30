@@ -11,7 +11,7 @@ import org.apache.commons.logging.LogFactory;
 @RestController
 public class GreenSpringController
 {
-   private static final Log methIDindex, methIDgetCurrentDateTime;
+    private static final Log methIDindex, methIDgetCurrentDateTime;
 
     static
     {
